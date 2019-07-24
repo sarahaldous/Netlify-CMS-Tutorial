@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 
-
-
 const BlogPage = () => {
     const data = useStaticQuery(graphql`
     query {
@@ -14,16 +12,15 @@ const BlogPage = () => {
                         date
                         path
                     }
-                
+                    html
+                    excerpt
                 }
             }
         }
     }
 `)
 
-
-
-    return (
+return (
         <div>
             <h1>Blog</h1>
             <ol>
