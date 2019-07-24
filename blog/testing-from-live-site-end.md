@@ -1,6 +1,6 @@
 ---
-path: quandary
-date: 2019-07-17T19:47:24.502Z
-title: Testing from live site end
+path: site
+date: 2019-07-23T19:47:24.502Z
+title: Testing again after altering gatsby.config
 ---
-Testing whether the live site will also create a new blog folder for the MD file
+again
