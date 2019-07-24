@@ -1,6 +1,6 @@
 ---
-path: site
+path: maybe
 date: 2019-07-23T19:47:24.502Z
-title: Testing again after altering gatsby.config
+title: That seems to have worked
 ---
-again
+Let's double check
