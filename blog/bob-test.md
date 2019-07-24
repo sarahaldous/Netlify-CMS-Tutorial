@@ -5,3 +5,5 @@ title: Bob Test
 bob: test
 ---
 This is the body
+
+![Aaron](./IMG_9643.JPG)
