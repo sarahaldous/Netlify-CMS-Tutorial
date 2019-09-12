@@ -6,7 +6,13 @@
 
 module.exports = {
  plugins: [
-   'gatsby-plugin-sass',
+   `gatsby-plugin-sass`,
+  //  {
+  //  resolve: `gatsby-plugin-layout`,
+  //  options: {
+  //    component: require.resolve(`./src/components/layout.js`),
+  //  }
+  // },
     `gatsby-plugin-netlify-cms`,
     {
      resolve: `gatsby-source-filesystem`,

@@ -23,9 +23,23 @@ const BlogPage = () => {
         }
     }
 `)
-
+const ListLink = props => (
+    <li style={{ display: `inline-block`, marginRight: `1rem` }}>
+      <Link to={props.to}>{props.children}</Link>
+    </li>
+    )
 return (
+    
         <div>
+            <header style={{ marginBottom: `1.5rem`, backgroundColor: `blue` }}>
+        <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
+        </Link>
+        <ul style={{ listStyle: `none`, float: `right`, display: `block` }}>
+          <ListLink to="/">Home</ListLink>
+          <ListLink to="/about/">About</ListLink>
+          <ListLink to="/blog/">Blog</ListLink>
+        </ul>
+      </header>
             <h1>Blog</h1>
             <ol className={blogStyles.post}> 
                     {data.allMarkdownRemark.edges.map((edge) => {
